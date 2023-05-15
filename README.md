@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Travis-CI](https://travis-ci.org/LiyuanLucasLiu/RAdam.svg?branch=master)](https://travis-ci.org/LiyuanLucasLiu/RAdam)
 
-<h1 align="center">RAdam</h1>
+<h1 align="center">Improved Adam</h1>
 <h5 align="center">On the Variance of the Adaptive Learning Rate and Beyond</h5>
 
 We are in an early-release beta. Expect some adventures and rough edges.
