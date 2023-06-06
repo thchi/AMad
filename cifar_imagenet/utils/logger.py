@@ -1,5 +1,6 @@
 # A simple torch style logger
 # (C) Wei YANG 2017
+
 from __future__ import absolute_import
 import matplotlib as mpl
 mpl.use('Agg')
