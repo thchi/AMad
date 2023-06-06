@@ -12,7 +12,6 @@ architectures:
 You can construct a model with random weights by calling its constructor:
 
 .. code:: python
-
     import torchvision.models as models
     resnet18 = models.resnet18()
     alexnet = models.alexnet()
@@ -22,7 +21,6 @@ You can construct a model with random weights by calling its constructor:
 We provide pre-trained models for the ResNet variants and AlexNet, using the
 PyTorch :mod:`torch.utils.model_zoo`. These can  constructed by passing
 ``pretrained=True``:
-
 .. code:: python
 
     import torchvision.models as models
