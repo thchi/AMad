@@ -21,7 +21,7 @@ import torchvision.datasets as datasets
 import models.cifar as models
 
 from utils import Bar, Logger, AverageMeter, accuracy, mkdir_p, savefig
-from utils.radam import AMadam
+from utils.AMadam import AMadam
 
 # from tensorboardX import SummaryWriter
 # writer = SummaryWriter(logdir='/cps/gadam/log_cifa10/')
