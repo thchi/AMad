@@ -22,7 +22,7 @@ import torchvision.models as models
 import models.imagenet as customized_models
 
 from utils import Bar, Logger, AverageMeter, accuracy, mkdir_p, savefig
-from utils.radam import RAdam, AdamW
+from utils.Amadam import AMadam, Adam
 
 # from tensorboardX import SummaryWriter
 # writer = SummaryWriter(logdir='/cps/gadam/log_imagenet/')
