@@ -25,11 +25,12 @@ python cifar.py -a resnet --depth 20 --epochs 164 --schedule 81 122 --gamma 0.1 
 # AMadam experiments
 
 ```
-python cifar.py -a resnet --depth 20 --epochs 164 --schedule 81 122 --gamma 0.1 --wd 1e-4 --optimizer amadam  --beta1 0.9  --checkpoint checkpoints/cifar10/resnet-20-amadam-01 --gpu-id 0 --model_name amadam_01
+! python /content/AMad/cifar_imagenet/cifar.py -a resnet --depth 20 --data cifar10 --epochs 200 --optimizer  amadam --schedule 81 122 --gamma 0.1 --lr 0.01  --checkpoint checkpoints/cifar10/resnet
 
-python cifar.py -a resnet --depth 20 --epochs 164 --schedule 81 122 --gamma 0.1 --wd 1e-4 --optimizer amadam  --beta1 0.9 --checkpoint checkpoints/cifar10/resnet-20-amadam-003 --gpu-id 0 --model_name amadam_003 --lr 0.03
+! python /content/AMad/cifar_imagenet/cifar.py -a resnet --depth 20 --data cifar10 --epochs 200 --optimizer  amadam --schedule 81 122 --gamma 0.1 --lr 0.001  --checkpoint checkpoints/cifar10/resnet
 
-python cifar.py -a resnet --depth 20 --epochs 164 --schedule 81 122 --gamma 0.1 --wd 1e-4 --optimizer amadam  --beta1 0.9  --checkpoint  checkpoints/cifar10/resnet-20-amadam-001 --gpu-id 0 --model_name amadam_001 --lr 0.01
+! python /content/AMad/cifar_imagenet/cifar.py -a alexnet --depth 20 --data cifar10 --epochs 200 --optimizer  amadam --schedule 81 122 --gamma 0.1 --lr 0.001  --checkpoint checkpoints/cifar10/alexnet
 
-python cifar.py -a resnet --depth 20 --epochs 164 --schedule 81 122 --gamma 0.1 --wd 1e-4 --optimizer amadam  --beta1 0.9  --checkpoint  checkpoints/cifar10/resnet-20-amadam-0003 --gpu-id 0 --model_name amadam_0003 --lr 0.003
+! python /content/AMad/cifar_imagenet/cifar.py -a vgg_bn --depth 20 --data cifar10 --epochs 200 --optimizer  amadam --schedule 81 122 --gamma 0.1 --lr 0.001  --checkpoint checkpoints/cifar10/vggxnet
+ 
 ```
