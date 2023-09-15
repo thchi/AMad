@@ -2,8 +2,11 @@ To execute Amadam in Google Colab with CIFAR-10and CIFAR-100, you can follow the
 
 Open Google Colab: create a new notebook or open an existing one.# CIFAR-10 CIFAR-100
 
-Run the Command: In a code cell in your Colab notebook, you can run the command you provided:
+Run the Command: In a code cell in your Colab notebook:
 
+# clone the repo
+!git clone -l -s https://github.com/thchi/AMad.git
+# run the model
 !python /content/AMad/cifar_imagenet/cifar.py -a resnet --depth 20 --data cifar10 --epochs 200 --optimizer amadam --schedule 81 122 --gamma 0.1 --lr 0.001 --checkpoint checkpoints/cifar10/resnet
 
 
