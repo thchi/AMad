@@ -1,14 +1,12 @@
 
 ```markdown
-# AMAdam: Adaptive Momentum for Improved Optimization in Deep Learning
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/your-repo)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/your-repo)
-![GitHub license](https://img.shields.io/github/license/yourusername/your-repo)
 
 ## Overview
 
-AMAdam is a novel optimization algorithm designed to address the challenges of poor generalization and convergence rates in deep learning models. This repository contains the implementation of AMAdam and provides comprehensive documentation for users and developers.
+AMAdam is a novel optimization algorithm designed to address the challenges of poor
+ generalization and convergence rates in deep learning models. This repository
+contains the implementation of AMAdam and provides comprehensive documentation
+for users and developers.
 
 ## Key Features
 
